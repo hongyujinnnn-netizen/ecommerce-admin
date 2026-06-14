@@ -1,0 +1,50 @@
+.alert-banner {
+  display: flex;
+  gap: 1.5rem;
+  padding: 1.2rem 1.5rem;
+  border-radius: 12px;
+  margin-bottom: 1.5rem;
+  align-items: center;
+}
+
+.alert-banner.warning {
+  background-color: rgba(245, 166, 35, 0.1);
+  border: 1px solid rgba(245, 166, 35, 0.3);
+}
+
+.alert-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: rgba(245, 166, 35, 0.2);
+  color: #f5a623;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.alert-content h4 {
+  color: #c98411;
+  margin-bottom: 0.2rem;
+  font-size: 1rem;
+}
+
+.alert-content p {
+  color: var(--text-main);
+  font-size: 0.9rem;
+}
+
+.status-badge.healthy {
+  background-color: rgba(56, 193, 161, 0.15);
+  color: var(--primary-color);
+}
+
+.status-badge.low-stock {
+  background-color: rgba(245, 166, 35, 0.15);
+  color: #f5a623;
+}
+
+.status-badge.out-of-stock {
+  background-color: rgba(255, 82, 82, 0.15);
+  color: var(--danger-color);
+}

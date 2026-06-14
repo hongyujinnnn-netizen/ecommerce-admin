@@ -1,0 +1,30 @@
+.status-badge.pending {
+  background-color: rgba(245, 166, 35, 0.15);
+  color: #f5a623;
+}
+
+.status-badge.shipped {
+  background-color: rgba(74, 144, 226, 0.15);
+  color: #4a90e2;
+}
+
+.status-badge.delivered {
+  background-color: rgba(56, 193, 161, 0.15);
+  color: var(--primary-color);
+}
+
+.status-select {
+  padding: 0.4rem 0.8rem;
+  border-radius: 6px;
+  border: 1px solid var(--border-color);
+  background-color: white;
+  color: var(--text-main);
+  outline: none;
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.status-select:focus {
+  border-color: var(--primary-color);
+}

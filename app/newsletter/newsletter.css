@@ -1,0 +1,4 @@
+.status-badge.sent {
+  background-color: rgba(56, 193, 161, 0.15);
+  color: var(--primary-color);
+}

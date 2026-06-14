@@ -1,0 +1,46 @@
+.settings-container {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+}
+
+.settings-sidebar {
+  flex: 0 0 250px;
+  padding: 1rem 0;
+}
+
+.settings-nav {
+  display: flex;
+  flex-direction: column;
+}
+
+.settings-nav-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.8rem 1.5rem;
+  color: var(--text-muted);
+  font-weight: 500;
+  cursor: pointer;
+  transition: var(--transition);
+  border-left: 3px solid transparent;
+}
+
+.settings-nav-item:hover {
+  background-color: #fafbfc;
+  color: var(--text-main);
+}
+
+.settings-nav-item.active {
+  color: var(--primary-color);
+  background-color: rgba(56, 193, 161, 0.05);
+  border-left-color: var(--primary-color);
+}
+
+.settings-content {
+  flex: 1;
+}
+
+.settings-content .form-group {
+  margin-bottom: 1.2rem;
+}
